@@ -19,6 +19,69 @@
     </style>
 </head>
 <body class="lexend-normal">
-    
+    <header class="sticky top-0 bg-[#F9F7F3]">
+        <div class="navbar pt-10 bg-whit px-5 md:px-16">
+            <div class="navbar-start">
+                <a href="index.html"><button class="btn bg-[#B4F461] w-24 text-sm md:text-xl font-bold h-14 flex items-center">Home</button></a>
+            </div>
+            <div class="navbar-center flex justify-between gap-3 items-center">
+                <div>
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <div>
+                    <h2 class="md:text-2xl text-sm font-bold">Donate Bangladesh</h2>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <button class="btn text-sm md:text-xl"><img src="assets/coin.png" alt=""><span>5500</span>BDT</button>
+            </div>
+        </div>
+
+    </header>
+    <main class="pt-10 p-5">
+        <section>
+            <div class="">
+                <div class="flex justify-center gap-5">
+                    <button class="btn bg-[#B4F461] md:text-lg">Donation</button>
+                    <button class="btn bg-[#B4F461] md:text-lg">History</button>
+                </div>
+                <div></div>
+            </div>
+        </section>
+        <section class="">
+            <div class="pt-10 md:w-3/4 mx-auto">
+                <div class="join join-vertical w-full">
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" checked="checked"/>
+                      <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                      <div class="collapse-content">
+                        <p>The Document Object Model (DOM) is a programming interface that represents the structure of an HTML or XML document as a hierarchical tree of objects, where each element, attribute, and piece of text is a node. This model allows programming languages, particularly JavaScript, to dynamically interact with and manipulate the document's content and structure in real time, enabling the development of interactive web applications. The DOM is language-independent, supports event handling for user interactions, and is designed to ensure consistent behavior across different web browsers, making it a fundamental component of modern web development.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                      <div class="collapse-content">
+                        <p>To select an element from the DOM using JavaScript, several methods are available, each designed for specific use cases. The getElementById method retrieves an element by its unique ID, while getElementsByClassName and getElementsByTagName select collections of elements based on class names or tag names, respectively. The querySelector method retrieves the first element that matches a CSS selector, and querySelectorAll selects all matching elements, returning a static NodeList. These methods provide flexibility and efficiency for interacting with and manipulating DOM elements in web applications.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+                      <div class="collapse-content">
+                        <p>Event delegation is a technique in the DOM that enables handling events at a higher level in the hierarchy by attaching a single event listener to a parent element instead of individual child elements. When an event occurs on a child, it bubbles up to the parent, which can identify the source using the event.target property. This approach offers several benefits, including improved performance by reducing the number of event listeners, ease of managing dynamically added child elements, simplified code maintenance, and centralized event management. Overall, event delegation enhances the efficiency and interactivity of web applications.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+                      <div class="collapse-content">
+                        <p>To manipulate an element's attributes and styles using the DOM (Document Object Model) in JavaScript, you first select the element using methods like document.getElementById or document.querySelector. You can change attributes using the setAttribute() method or by directly accessing properties, such as modifying the id or href. For styling, you can adjust the style property to change aspects like color, background, and font size. Additionally, the classList property allows you to add, remove, or toggle classes on elements. This combination of techniques enables dynamic adjustments to the content and appearance of web elements in response to user interactions or other events.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

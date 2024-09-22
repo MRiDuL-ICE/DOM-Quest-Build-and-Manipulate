@@ -44,11 +44,13 @@
         <section>
             <div class="">
                 <div class="flex justify-center gap-5">
-                    <button class="btn bg-[#B4F461] md:text-lg">Donation</button>
+                    <button class="btn bg-[#B4F461] md:text-lg" id="donation-field">Donation</button>
                     <button class="btn bg-[#B4F461] md:text-lg">History</button>
                 </div>
                 <div></div>
             </div>
+            <div class="divider"></div>
+           <div class="hidden" id="donation-section">
             <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20 md:w-3/4 md:items-center">
                 <div class="rounded-lg md:w-1/2 w-full flex justify-center">
                     <img src="assets/noakhali.png" alt="">
@@ -85,9 +87,10 @@
                    <button class="btn bg-[#B4F461] w-full">Donate Now</button> 
                 </div>
             </div>
+           </div>
         </section>
     </main>
-
+<script src="toggle.js"></script>
 </body>
 
 </html>
