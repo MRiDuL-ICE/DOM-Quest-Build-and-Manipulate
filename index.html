@@ -24,7 +24,8 @@
     <header class="sticky top-0 bg-[#f9f7f3b6]">
         <div class="navbar pt-10 bg-whit px-5 md:px-16">
             <div class="navbar-start">
-                <a href="blog.html"><button class="btn bg-[#B4F461] w-24 text-sm md:text-xl font-bold h-14 flex items-center">Blog</button></a>
+                <a href="blog.html"><button
+                        class="btn bg-[#B4F461] w-24 text-sm md:text-xl font-bold h-14 flex items-center">Blog</button></a>
             </div>
             <div class="navbar-center flex justify-between gap-3 items-center">
                 <div>
@@ -35,7 +36,8 @@
                 </div>
             </div>
             <div class="navbar-end">
-                <button class="btn text-sm md:text-xl"><img src="assets/coin.png" alt=""><span>5500</span>BDT</button>
+                <button class="btn text-sm md:text-xl"><img src="assets/coin.png" alt=""><span
+                        id="balance">5500</span>BDT</button>
             </div>
         </div>
 
@@ -50,50 +52,79 @@
                 <div></div>
             </div>
             <div class="divider"></div>
-           <div class="" id="donation-section">
-            <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20 md:w-3/4 md:items-center">
-                <div class="rounded-lg md:w-1/2 w-full flex justify-center">
-                    <img src="assets/noakhali.png" alt="">
+            <div class="" id="donation-section">
+                <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20 md:w-3/4 md:items-center">
+                    <div class="rounded-lg md:w-1/2 w-full flex justify-center">
+                        <img src="assets/noakhali.png" alt="">
+                    </div>
+                    <div class="md:w-1/2">
+                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span
+                                id="noakhali-total">0</span>BDT</button>
+                        <h2 class="text-xl font-extrabold mb-5">Donate for Flood at Noakhali, Bangladesh</h2>
+                        <p class="text-sm mb-5 text-[#111111B3]">Flooding in Noakhali, Bangladesh, primarily occurs
+                            during the monsoon season from June to September, driven by heavy rainfall and the region's
+                            proximity to major rivers like the Meghna. This low-lying area is particularly vulnerable
+                            due to its geography, which can lead to overflowing rivers and inadequate drainage systems.
+                            The impacts are severe, resulting in displacement of communities, destruction of crops, and
+                            increased health risks from waterborne diseases. Additionally, infrastructure such as roads
+                            and homes often suffers significant damage, complicating recovery efforts. Addressing these
+                            challenges requires a combination of emergency relief, infrastructure improvements, and
+                            community awareness to enhance resilience against future flooding.</p>
+                        <input type="text" placeholder="Write Donation Amount" id="noakhali-amount"
+                            class="input input-bordered w-full mb-5" />
+                        <button class="btn bg-[#B4F461] w-full" id="noakhali-donate">Donate Now</button>
+                    </div>
                 </div>
-                <div class="md:w-1/2">
-                   <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>0</span>BDT</button>
-                   <h2 class="text-xl font-extrabold mb-5">Donate for Flood at Noakhali, Bangladesh</h2>
-                   <p class="text-sm mb-5 text-[#111111B3]">Flooding in Noakhali, Bangladesh, primarily occurs during the monsoon season from June to September, driven by heavy rainfall and the region's proximity to major rivers like the Meghna. This low-lying area is particularly vulnerable due to its geography, which can lead to overflowing rivers and inadequate drainage systems. The impacts are severe, resulting in displacement of communities, destruction of crops, and increased health risks from waterborne diseases. Additionally, infrastructure such as roads and homes often suffers significant damage, complicating recovery efforts. Addressing these challenges requires a combination of emergency relief, infrastructure improvements, and community awareness to enhance resilience against future flooding.</p>
-                   <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mb-5" />
-                   <button class="btn bg-[#B4F461] w-full">Donate Now</button> 
+                <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20  md:w-3/4 md:items-center">
+                    <div class="rounded-lg md:w-1/2 w-full flex justify-center">
+                        <img src="assets/feni.png" alt="">
+                    </div>
+                    <div class="md:w-1/2">
+                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>600</span>BDT</button>
+                        <h2 class="text-xl font-extrabold mb-5">Donate for Flood Relief in Feni,Bangladesh</h2>
+                        <p class="text-sm mb-5 text-[#111111B3]">Donating for flood relief in Feni, Bangladesh, is
+                            crucial as the region frequently suffers from devastating floods, particularly during the
+                            monsoon season. Contributions can provide immediate assistance to affected communities,
+                            helping with essential needs such as food, clean water, medical supplies, and shelter. Local
+                            NGOs and international organizations are actively involved in relief efforts, ensuring that
+                            donations reach those in need. By supporting these initiatives, you can play a vital role in
+                            alleviating the suffering of flood victims and aiding their recovery, reinforcing the
+                            resilience of the community in the face of recurring natural disasters.</p>
+                        <input type="text" placeholder="Write Donation Amount"
+                            class="input input-bordered w-full mb-5" />
+                        <button class="btn bg-[#B4F461] w-full">Donate Now</button>
+                    </div>
+                </div>
+                <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20  md:w-3/4 md:items-center">
+                    <div class="rounded-lg md:w-1/2 w-full flex justify-center">
+                        <img src="assets/quota-protest.png" alt="">
+                    </div>
+                    <div class="md:w-1/2">
+                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>2400</span>BDT</button>
+                        <h2 class="text-xl font-extrabold mb-5">Aid for Injured in the Quota Movement</h2>
+                        <p class="text-sm mb-5 text-[#111111B3]">Aid for the injured in the Quota Movement in Bangladesh
+                            is essential as protests advocating for reforms in the government job quota system have led
+                            to clashes and injuries among demonstrators. Many individuals require medical assistance for
+                            treatment of wounds and trauma, highlighting the need for immediate support. Contributions
+                            can help cover medical expenses, provide necessary supplies, and facilitate rehabilitation
+                            efforts. Local NGOs and community organizations are often involved in providing aid,
+                            ensuring that those affected receive the help they need. Supporting these initiatives not
+                            only addresses the immediate health concerns but also contributes to the broader struggle
+                            for equitable job opportunities in the country.</p>
+                        <input type="text" placeholder="Write Donation Amount"
+                            class="input input-bordered w-full mb-5" />
+                        <button class="btn bg-[#B4F461] w-full">Donate Now</button>
+                    </div>
                 </div>
             </div>
-            <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20  md:w-3/4 md:items-center">
-                <div class="rounded-lg md:w-1/2 w-full flex justify-center">
-                    <img src="assets/feni.png" alt="">
-                </div>
-                <div class="md:w-1/2">
-                   <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>600</span>BDT</button>
-                   <h2 class="text-xl font-extrabold mb-5">Donate for Flood Relief in Feni,Bangladesh</h2>
-                   <p class="text-sm mb-5 text-[#111111B3]">Donating for flood relief in Feni, Bangladesh, is crucial as the region frequently suffers from devastating floods, particularly during the monsoon season. Contributions can provide immediate assistance to affected communities, helping with essential needs such as food, clean water, medical supplies, and shelter. Local NGOs and international organizations are actively involved in relief efforts, ensuring that donations reach those in need. By supporting these initiatives, you can play a vital role in alleviating the suffering of flood victims and aiding their recovery, reinforcing the resilience of the community in the face of recurring natural disasters.</p>
-                   <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mb-5" />
-                   <button class="btn bg-[#B4F461] w-full">Donate Now</button> 
-                </div>
-            </div>
-            <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20  md:w-3/4 md:items-center">
-                <div class="rounded-lg md:w-1/2 w-full flex justify-center">
-                    <img src="assets/quota-protest.png" alt="">
-                </div>
-                <div class="md:w-1/2">
-                   <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>2400</span>BDT</button>
-                   <h2 class="text-xl font-extrabold mb-5">Aid for Injured in the Quota Movement</h2>
-                   <p class="text-sm mb-5 text-[#111111B3]">Aid for the injured in the Quota Movement in Bangladesh is essential as protests advocating for reforms in the government job quota system have led to clashes and injuries among demonstrators. Many individuals require medical assistance for treatment of wounds and trauma, highlighting the need for immediate support. Contributions can help cover medical expenses, provide necessary supplies, and facilitate rehabilitation efforts. Local NGOs and community organizations are often involved in providing aid, ensuring that those affected receive the help they need. Supporting these initiatives not only addresses the immediate health concerns but also contributes to the broader struggle for equitable job opportunities in the country.</p>
-                   <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mb-5" />
-                   <button class="btn bg-[#B4F461] w-full">Donate Now</button> 
-                </div>
-            </div>
-           </div>
-           <div id="history-section">
+            <div id="history-section">
 
-           </div>
+            </div>
         </section>
     </main>
-<script src="toggle.js"></script>
+    <script src="features.js"></script>
+    <script src="toggle.js"></script>
+    <script src="donation.js"></script>
 </body>
 
 </html>
