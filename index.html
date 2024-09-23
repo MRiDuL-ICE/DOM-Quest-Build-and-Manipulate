@@ -25,7 +25,7 @@
         <div class="navbar pt-10 bg-whit px-5 md:px-16">
             <div class="navbar-start">
                 <a href="blog.html"><button
-                        class="btn bg-[#B4F461] w-24 text-sm md:text-xl font-bold h-14 flex items-center">Blog</button></a>
+                        class="btn bg-[#B4F461] w-24 text-sm md:text-xl font-bold h-14 flex items-center" id="blog-field">Blog</button></a>
             </div>
             <div class="navbar-center flex justify-between gap-3 items-center">
                 <div>
@@ -70,7 +70,7 @@
                             and homes often suffers significant damage, complicating recovery efforts. Addressing these
                             challenges requires a combination of emergency relief, infrastructure improvements, and
                             community awareness to enhance resilience against future flooding.</p>
-                        <input type="text" placeholder="Write Donation Amount" id="noakhali-amount"
+                        <input type="text" placeholder="Write Donation Amount" id="amount"
                             class="input input-bordered w-full mb-5" />
                         <button class="btn bg-[#B4F461] w-full" id="noakhali-donate">Donate Now</button>
                     </div>
@@ -84,7 +84,7 @@
                             <p class="py-4 text-center">You have donated to mankind</p>
                             <h3 class="text-xl text-center font-bold mb-5">Successful</h3>
                             <form method="dialog" class="flex btn justify-center">
-                                <button class="btn">close Confirmation</button>
+                                <button class="btn w-full">Close Confirmation</button>
                             </form>
                         </div>
                     </dialog>
@@ -96,7 +96,7 @@
                         <img src="assets/feni.png" alt="">
                     </div>
                     <div class="md:w-1/2">
-                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>600</span>BDT</button>
+                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span id="feni-total">600</span>BDT</button>
                         <h2 class="text-xl font-extrabold mb-5">Donate for Flood Relief in Feni,Bangladesh</h2>
                         <p class="text-sm mb-5 text-[#111111B3]">Donating for flood relief in Feni, Bangladesh, is
                             crucial as the region frequently suffers from devastating floods, particularly during the
@@ -107,8 +107,8 @@
                             alleviating the suffering of flood victims and aiding their recovery, reinforcing the
                             resilience of the community in the face of recurring natural disasters.</p>
                         <input type="text" placeholder="Write Donation Amount"
-                            class="input input-bordered w-full mb-5" />
-                        <button class="btn bg-[#B4F461] w-full">Donate Now</button>
+                            class="input input-bordered w-full mb-5" id="amount"/>
+                        <button class="btn bg-[#B4F461] w-full" id="feni-donate">Donate Now</button>
                     </div>
                 </div>
                 <div class="md:flex md:justify-center md:mx-auto md:text-left pt-20  md:w-3/4 md:items-center">
@@ -116,7 +116,7 @@
                         <img src="assets/quota-protest.png" alt="">
                     </div>
                     <div class="md:w-1/2">
-                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span>2400</span>BDT</button>
+                        <button class="btn mt-10 mb-5"><img src="assets/coin.png" alt=""><span id="quota-total">2400</span>BDT</button>
                         <h2 class="text-xl font-extrabold mb-5">Aid for Injured in the Quota Movement</h2>
                         <p class="text-sm mb-5 text-[#111111B3]">Aid for the injured in the Quota Movement in Bangladesh
                             is essential as protests advocating for reforms in the government job quota system have led
@@ -128,8 +128,8 @@
                             only addresses the immediate health concerns but also contributes to the broader struggle
                             for equitable job opportunities in the country.</p>
                         <input type="text" placeholder="Write Donation Amount"
-                            class="input input-bordered w-full mb-5" />
-                        <button class="btn bg-[#B4F461] w-full">Donate Now</button>
+                            class="input input-bordered w-full mb-5" id="amount"/>
+                        <button class="btn bg-[#B4F461] w-full" id="quota-donate">Donate Now</button>
                     </div>
                 </div>
             </div>
