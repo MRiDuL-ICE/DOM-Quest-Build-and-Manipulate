@@ -25,9 +25,9 @@ document.getElementById('noakhali-donate').addEventListener('click', function (e
             const div = document.createElement('div')
             const uniqueId = `datetime-${Date.now()}`;
             div.innerHTML = `
-            <div class="w-4/6 border-2 mx-auto rounded-lg p-10">
+            <div class="mt-10 shadow-lg w-4/6 border-2 mx-auto rounded-xl p-10">
         
-            <h1 class="text-2xl font-bold">${addAmountNumber} Taka Donated for Flood at Noakhali, Bangladesh</h1>
+            <h1 class="text-lg md:text-2xl font-bold">${addAmountNumber} Taka Donated for Flood at Noakhali, Bangladesh</h1>
             <p id="${uniqueId}" class="text-[#111111B3] pt-5"></p>
             <script>
             
@@ -81,9 +81,9 @@ document.getElementById('feni-donate').addEventListener('click', function (event
             const div = document.createElement('div')
             const uniqueId = `datetime-${Date.now()}`;
             div.innerHTML = `
-            <div class="w-4/6 my-5 border-2 mx-auto rounded-lg p-10">
+            <div class="mt-10 shadow-lg rounded-xl w-4/6 my-5 border-2 mx-auto p-10">
         
-            <h1 class="text-2xl font-bold">${addAmountNumber} Taka Donated for Flood Relief at Feni, Bangladesh</h1>
+            <h1 class="text-lg md:text-2xl font-bold">${addAmountNumber} Taka Donated for Flood Relief at Feni, Bangladesh</h1>
             <p id="${uniqueId}" class="text-[#111111B3] pt-5"></p>
             <script>
             
@@ -136,14 +136,10 @@ document.getElementById('quota-donate').addEventListener('click', function (even
             const div = document.createElement('div')
             const uniqueId = `datetime-${Date.now()}`;
             div.innerHTML = `
-            <div class="w-4/6 border-2 mx-auto rounded-lg p-10">
+            <div class="mt-10 shadow-lg w-4/6 border-2 mx-auto rounded-xl p-10">
         
-            <h1 class="text-2xl font-bold">${addAmountNumber} Taka Donated for Injured in the Quota Movement, Bangladesh</h1>
+            <h1 class="text-lg md:text-2xl font-bold">${addAmountNumber} Taka Donated for Injured in the Quota Movement, Bangladesh</h1>
             <p id="${uniqueId}" class="text-[#111111B3] pt-5"></p>
-            <script>
-            
-            </script>
-        
         </div>
         
             `
